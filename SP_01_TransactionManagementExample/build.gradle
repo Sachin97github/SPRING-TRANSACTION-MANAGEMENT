@@ -1,0 +1,28 @@
+
+
+plugins {
+   
+    id 'application'
+}
+
+repositories {
+    
+    jcenter()
+}
+
+dependencies {
+   implementation group: 'org.springframework', name: 'spring-context-support', version: '5.2.8.RELEASE'
+   
+   implementation group: 'org.springframework', name: 'spring-jdbc', version: '5.2.8.RELEASE'
+   
+   implementation group: 'org.aspectj', name: 'aspectjweaver', version: '1.9.6'
+   
+  implementation group: 'aspectj', name: 'aspectjrt', version: '1.5.4'
+  
+  implementation group: 'com.zaxxer', name: 'HikariCP', version: '3.4.5'
+  
+  implementation group: 'com.oracle.database.jdbc', name: 'ojdbc8', version: '19.7.0.0'
+  
+  
+  
+}
